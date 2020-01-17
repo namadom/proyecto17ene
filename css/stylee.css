@@ -1,0 +1,45 @@
+#principal {
+    color:red; background-color: pink; 
+  }
+  
+  #criciv{
+      border: 2px solid black; padding:8px;
+  }
+
+  header{  text-align: center;
+  } 
+  
+  .men{
+      border: 2px dotted pink; padding: 4px; margin: 100px; color: white;
+     
+  }
+  
+  
+  
+  aside, #parrafo1, #parrafo2, #parrafo3, #parrafo4 {
+      border: 2px solid pink;
+  }
+  
+  footer{
+      font-size: 15mm;
+      text-align: right;
+  }
+/*para mquetar los parrafos y sus imagenes*/
+
+  #parrafo1 p, #parrafo2 p, #parrafo3 p, #parrafo4 p{
+    width: 50%; float: left;
+  }
+  #parrafo1 img, #parrafo2 img, #parrafo3 img, #parrafo4 img{
+      width: 50%; 
+  }
+
+body{
+    background-color: black;
+} 
+/* Para que cuando pase el mouse por encima, me cambie de color el fondo y la letra */
+.men:hover{
+    color: black;
+    background-color: ivory;
+}
+
+
